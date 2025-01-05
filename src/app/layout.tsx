@@ -40,8 +40,8 @@ export default function RootLayout({
           </SignedOut>
           <SignedIn>
             <UserButton />
+            {children}
           </SignedIn>
-          {children}
         </body>
       </html>
     </ClerkProvider>

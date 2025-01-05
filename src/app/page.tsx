@@ -1,7 +1,11 @@
-import Image from "next/image";
+import StockForm from "@/components/StockForm";
 
 export default function Home() {
   return (
-    <></>
+    <>
+      <div>
+        <StockForm/> 
+      </div>
+    </>
      );
 }
